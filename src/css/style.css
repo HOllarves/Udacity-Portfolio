@@ -1,0 +1,120 @@
+/* Custom Font */
+
+@font-face {
+    font-family: VCR;
+    src: url('../assets/fonts/VCR-font.ttf');
+}
+
+@font-face {
+    font-family: Streamster;
+    src: url('../assets/fonts/Streamster-font.ttf');
+}
+
+
+/* Main Page */
+
+body {
+    font-family: Streamster;
+    background: #000;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#AE3557, #4E2C69, #000);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#AE3557, #4E2C69, #000);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#AE3557, #4E2C69, #000);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#AE3557, #4E2C69, #000);
+    /* Standard syntax */
+}
+
+.horizontal-separator {
+    width: 100%;
+    color: #AE3557;
+    border: 1.5px solid;
+    box-shadow: 0 0 15px #AE3557;
+}
+
+.nav-container {
+    margin-bottom: 20px;
+}
+
+.logo-image {
+    padding-top: 10px;
+}
+
+.title {
+    color: #FFF;
+    display: block;
+    float: right;
+    text-align: right;
+    text-shadow: 5px 5px 5px #4E2C69; 
+}
+
+.title h1 {
+    font-size: 45px;
+}
+
+.title h3 {
+    font-size: 30px;
+}
+
+.main-image-container {
+    margin-bottom: 20px;
+}
+
+.main-image-container img {
+    max-height: 800px;
+    width: 100%;
+}
+
+.featured-work-title {
+    color: #FFF;
+    margin-bottom: 35px;
+    padding: 15px;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px #AE3557; 
+}
+
+.featured-work a {
+    color: #FFF;
+}
+
+.featured-work h3 {
+    font-size: 30px;
+    text-shadow: 5px 5px 5px #AE3557; 
+}
+
+.job-box {
+    text-align: center;
+}
+
+.job-box img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 500px) {
+    .nav-container {
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+    }
+    .logo-image {
+        padding-top: 0;
+    }
+    .title {
+        text-align: center;
+        width: 100%;
+        color: #FFF;
+        position: absolute;
+    }
+    .title h1 {
+        font-size: 30px;
+    }
+    .title h3 {
+        font-size: 20px;
+    }
+}

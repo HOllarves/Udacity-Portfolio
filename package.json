@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-submission",
+  "version": "1.0.0",
+  "description": "Second submission for Udacity's Full Stack Developer Nanodegree",
+  "main": "gulpfile.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "gulp serve"
+  },
+  "keywords": [
+    "Udacity",
+    "Portfolio",
+    "Nanodegree",
+    "Submission"
+  ],
+  "author": "Henry Ollarves",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "^4.3.11"
+  }
+}
