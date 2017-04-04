@@ -92,7 +92,7 @@ gulp.task('clean', () => {
 
 /**
  * Watching for changes
- * in css files and index
+ * in css, index, images and font files
  */
 
 gulp.task('watch', () => {
