@@ -79,9 +79,10 @@ body {
     color: #FFF;
 }
 
-.featured-work h3 {
+.featured-work p {
     font-size: 30px;
-    text-shadow: 5px 5px 5px #AE3557; 
+    text-shadow: 5px 5px 5px #AE3557;
+    margin-top:5px;
 }
 
 .job-box {

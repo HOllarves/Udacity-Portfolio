@@ -2,8 +2,7 @@
 <html>
 
 <head>
-
-  <meta name="description" content="Responsive Portfolio" />
+  <meta name="description" content="Responsive Portfolio">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <meta itemprop="name" content="Responsive Portfolio">
   <meta charset="utf-8" />
@@ -13,69 +12,71 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
   <!-- Latest minified CSS -->
-  <link rel="stylesheet" href="css/style.min.css" />
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-  <div class="row">
-    <div class="container-fluid">
-      <div class="nav-container col-xs-12">
+  <div class="container-fluid">
+    <div class="row">
+      <header class="nav-container col-xs-12">
         <picture>
           <source media="(max-width: 500px)" srcset="./assets/images/main-logo_500x300.gif">
-          <img src="./assets/images/main-logo.jpg" alt="Logo placeholder" class="pull-left img-responsive logo-image">
+          <img src="./assets/images/main-logo.jpg" alt="Awesome logo of an epic synthwave bike rider" class="pull-left img-responsive logo-image">
         </picture>
         <div class="title">
           <h1>Henry Ollarves</h1>
-          <h3>Full Stack Developer</h3>
+          <h2>Full Stack Developer</h2>
           <h3>...and midnight racer </h3>
         </div>
-      </div>
-      <hr class="horizontal-separator">
-      <hr class="horizontal-separator">
-      <div class="main-image-container col-xs-12">
+      </header>
+      <section id="main_image" class="main-image-container row">
+        <div class="neon-lights">
+          <hr class="horizontal-separator">
+          <hr class="horizontal-separator">
+        </div>
         <picture>
           <source media="(max-width: 550px)" srcset="./assets/images/main-banner_450x300.jpg">
           <source media="(max-width: 991px)" srcset="./assets/images/main-banner_990x500.jpg">
           <img src="./assets/images/main-banner.jpg" alt="Awesome retro car cruising to the sun" class="img-responsive">
         </picture>
-      </div>
-      <hr class="horizontal-separator">
-      <hr class="horizontal-separator">
-      <h2 class="featured-work-title">Featured Work</h2>
-      <hr class="horizontal-separator">
-      <hr class="horizontal-separator">
-      <div class="featured-work col-xs-12">
+      </section>
+      <section id="featured_work" class="featured-work row">
+        <div class="neon-lights">
+          <hr class="horizontal-separator">
+          <hr class="horizontal-separator">
+        </div>
+        <div class="featured-work-title-container col-xs-12">
+          <h2 class="featured-work-title">Featured Work</h2>
+        </div>
+        <div class="neon-lights">
+          <hr class="horizontal-separator">
+          <hr class="horizontal-separator">
+        </div>
         <div class="col-xs-12 col-md-4">
           <a href="https://github.com/HOllarves/movie-trailer-nanodegree" target="_blank">
             <div class="job-box">
-              <picture>
-                <img src="./assets/images/job1.jpg" alt="Job placeholder image" class="img-responsive">
-              </picture>
-              <h3> Movie Trailer Website </h3>
+              <img src="./assets/images/job1.jpg" alt="Movie Trailer Website logo" class="img-responsive">
+              <p> Movie Trailer Website </p>
             </div>
           </a>
         </div>
         <div class="col-xs-12 col-md-4">
           <a href="https://github.com/HOllarves/udacity-portfolio" target="_blank">
             <div class="job-box">
-              <picture>
-                <img src="./assets/images/job2.jpg" alt="Job placeholder image" class="img-responsive">
-              </picture>
-              <h3> Udacity's Portfolio </h3>
+              <img src="./assets/images/job2.jpg" alt="Udacity Portfolio logo" class="img-responsive">
+              <p> Udacity's Portfolio </p>
             </div>
           </a>
         </div>
         <div class="col-xs-12 col-md-4">
           <a href="https://github.com/HOllarves/ultimate-portfolio" target="_blank">
             <div class="job-box">
-              <picture>
-                <img src="./assets/images/job3.gif" alt="Job placeholder image" class="img-responsive">
-              </picture>
-              <h3> Personal Portfolio (In development) </h3>
+              <img src="./assets/images/job3.gif" alt="Upcoming personal portfolio logo" class="img-responsive">
+              <p> Personal Portfolio (In development) </p>
             </div>
           </a>
         </div>
-      </div>
+      </section>
     </div>
   </div>
 </body>
