@@ -17,22 +17,25 @@ body {
     font-family: Streamster;
     background: #000;
     /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#AE3557, #4E2C69, #000);
+    background: -webkit-linear-gradient(#ae3557, #4e2c69, #000);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#AE3557, #4E2C69, #000);
+    background: -o-linear-gradient(#ae3557, #4e2c69, #000);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#AE3557, #4E2C69, #000);
+    background: -moz-linear-gradient(#ae3557, #4e2c69, #000);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#AE3557, #4E2C69, #000);
+    background: linear-gradient(#ae3557, #4e2c69, #000);
     /* Standard syntax */
 }
 
+/* Horizontal Separator */
+
 .horizontal-separator {
-    width: 100%;
-    color: #AE3557;
+    color: #ae3557;
     border: 1.5px solid;
-    box-shadow: 0 0 15px #AE3557;
+    box-shadow: 0 0 15px #ae3557;
 }
+
+/* Header */
 
 .nav-container {
     margin-bottom: 20px;
@@ -42,58 +45,60 @@ body {
     padding-top: 10px;
 }
 
-.title {
-    color: #FFF;
+.title-container {
+    color: #fff;
     display: block;
     float: right;
     text-align: right;
-    text-shadow: 5px 5px 5px #4E2C69; 
+    text-shadow: 5px 5px 5px #4e2c69;
 }
 
-.title h1 {
+.title {
     font-size: 45px;
 }
 
-.title h3 {
+.sub-title {
     font-size: 30px;
 }
 
-.main-image-container {
+/* Main Image */
+
+.main-image {
     margin-bottom: 20px;
 }
 
-.main-image-container img {
+.main-image-content {
     max-height: 800px;
     width: 100%;
 }
 
+/* Featured Work */
+
 .featured-work-title {
-    color: #FFF;
+    color: #fff;
     margin-bottom: 35px;
     padding: 15px;
     font-size: 40px;
-    text-shadow: 5px 5px 5px #AE3557; 
+    text-shadow: 5px 5px 5px #ae3557;
 }
 
-.featured-work a {
-    color: #FFF;
-}
-
-.featured-work p {
-    font-size: 30px;
-    text-shadow: 5px 5px 5px #AE3557;
-    margin-top:5px;
-}
+/* Job Boxes */
 
 .job-box {
     text-align: center;
 }
 
-.job-box img {
+.job-title {
+    font-size: 30px;
+    text-shadow: 5px 5px 5px #ae3557;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.job-image {
     display: block;
     margin: 0 auto;
 }
-
 
 /* Media Queries */
 
@@ -109,7 +114,7 @@ body {
     .title {
         text-align: center;
         width: 100%;
-        color: #FFF;
+        color: #fff;
         position: absolute;
     }
     .title h1 {
