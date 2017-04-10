@@ -35,6 +35,10 @@ body {
     box-shadow: 0 0 15px #ae3557;
 }
 
+.neon-lights {
+    padding: 0; /* Removing the added padding to get the full width effect.*/
+}
+
 /* Header */
 
 .nav-container {
